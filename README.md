@@ -4,13 +4,7 @@
 
 做 Obsidian 最好用的思维导图插件。
 
-> 本插件源码不开源，本仓库仅存放文档。
-
-> 本插件思维导图功能建立在[mind-map](https://github.com/wanglin2/mind-map)项目之上，mind-map 项目提供了一个 js 思维导图库，以及一个完整的在线版思维导图。
->
-> mind-map 也提供了独立的思维导图客户端，可以点击[客户端](https://github.com/wanglin2/mind-map/releases)了解更多。
->
-> 独立客户端下载（Windows、macOS、Linux）：[点击这里](https://github.com/wanglin2/mind-map/releases)。
+> 除了插件，也有独立的思维导图客户端，功能更强大更完整，支持（Windows、macOS、Linux），支持（中文简体、繁體中文、English、Tiếng Việt、Русский、日本語、한국어、Deutsch、Français、Português）。[下载地址](https://github.com/wanglin2/mind-map/releases)、[了解更多](https://github.com/wanglin2/mind-map#%E6%80%9D%E7%BB%AA%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE%E5%AE%A2%E6%88%B7%E7%AB%AF)。
 
 如何安装：[中文](./docs/install_zh.md) | [English](./docs/install.md)
 
@@ -20,8 +14,9 @@
 
 图床配置帮助：[中文](./docs/imageHosting_zh.md) | [English](./docs/imageHosting.md)
 
-
 # 功能清单
+
+> 随着插件版本更新，功能越来越多，此处不再一一列举。
 
 - 思维导图本身的功能可从[mind-map](https://github.com/wanglin2/mind-map)项目了解更多，也可以在这里查[看常见问题](./Help_zh.md)。
 
