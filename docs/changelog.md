@@ -1,3 +1,70 @@
+# Official Version
+
+## 0.2.0
+
+New Features:
+1. Support logging in to PKMer account;
+2. Add Pro version features;
+3. Support configuring AI models. Once configured, AI features are supported (one-click mind map generation, node continuation, AI chat); logging in to a PKMer account allows the use of PKMer AI;
+4. Add file preview popup on mouse hover over links, supporting only md, pdf, and image files;
+5. Image data inserted into nodes is additionally saved to the #linkdata block of the source file, allowing other plugins to detect image references;
+6. Add quick jump buttons to the top of the plugin settings interface;
+7. Performance optimization: Sidebar component content changed to lazy loading to improve opening speed;
+8. Performance optimization: Remove unused components; icon, note, and tag popups or sidebar node activation event listeners only initialize data when the popup or sidebar is open;
+9. Improve multilingual translation;
+10. Optimize interface styles;
+11. Improve mobile interface display;
+12. Add sibling node, child node, and delete node buttons to the mobile top toolbar;
+13. Add superscript and subscript formats to the node rich text toolbar;
+14. Support setting node images to load only when they enter the viewport;
+15. Add numeric input boxes to all slider settings;
+16. Remove built-in node stickers, as they are not very useful and increase the plugin size;
+17. Outline editing: Maintain the focus state of the node text input box when moving nodes up or down;
+18. Full-screen outline editing: Support selecting paste method (no line break, preserve hierarchy, ignore hierarchy) when pasting multi-line text;
+19. When pasting multi-line text with multiple top-level root nodes into an active node using the preserve hierarchy method, an extra root node will no longer be created; instead, they will be inserted as sibling nodes under the current node;
+
+Bug Fixes:
+1. Fix the issue of abnormal free node tree structure after converting a node to a free node under the mind map layout structure;
+2. Fix the issue of being unable to expand a node after converting a collapsed node to a free node;
+3. Fix the issue of math formulas failing to render properly when they contain &, <, or > symbols;
+4. Fix the issue of the status statistics in the bottom right corner not updating when switching between different mind map tabs;
+5. Fix the issue of incorrect statistics for node text and node count in the bottom right corner;
+6. Fix the issue of icons not highlighting in real-time after formatting in the rich text toolbar; optimize the display issue of overly long font lists;
+7. Fix the issue of image export failing (image size is 0) when the mind map size is too large;
+8. Fix the issue of math formulas not being automatically converted when converting a Markdown document to a mind map document;
+9. Fix the issue of the app freezing when clicking an smm file in search results;
+10. Fix the issue of being unable to drag free node positions on mobile;
+11. Fix the issue of failing to add SVG format images to nodes;
+12. Fix the error when installing the plugin on lower versions of Obsidian;
+
+Pro Features:
+1. Support exporting to Excel, Freemind, JPG, Mermaid, and HTML format files; node hyperlinks in exported PDF files support clicking;
+2. Support importing xlsx and Freemind format files; support pasting Markdown and Txt content for import; support importing as children of the currently active node;
+3. Support fill-in-the-blank mode: presentation mode and canvas right-click menu;
+4. Add Pro-exclusive structures: table, timeline, fishbone diagram;
+5. Nodes support adding markers, node numbering, and node to-dos;
+6. Support hiding node text;
+7. Node lines support dashed line flow effect;
+8. Add Pro-exclusive node shapes;
+9. Node outer frame style supports setting to exclude child nodes;
+10. Canvas supports drag momentum effect;
+11. Support smm code block embedded editing:
+    1. Support embedding code blocks in ```smm``` format, which can be converted to a mind map view for editing after embedding;
+    2. Only basic editing capabilities are supported: text editing (with rich text toolbar display), shortcut key operations, and mouse operations;
+    3. Two action icons are provided in the bottom right corner of the editing view: back to root node, and fit canvas;
+    3. After editing, clicking elsewhere in the document will automatically update the code block source data;
+    4. Support setting the initial height of code block embedding in settings;
+    5. Support dragging to adjust the height;
+12. Support extending the fonts available for the mind map:
+    1. Manage fonts in settings;
+    2. Newly added fonts will be displayed in all font selectors of the mind map;
+13. Support previewing as a mind map in a new tab:
+    1. When opening a Markdown file, click the [Preview as Mind Map in New Tab] button in the more options at the top right corner to open the current file in a new tab and preview it as a mind map;
+    2. After the Markdown file is modified, the previewed mind map will update automatically;
+More Pro features are continuously being updated...
+
+# Internal Version
+
 # v0.0.0
 
 1:  
