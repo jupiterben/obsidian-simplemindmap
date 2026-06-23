@@ -8,7 +8,7 @@ The best mind map plugin for making Obsidian.
 
 - How to install
 
-Obsidian plugin market has been launched, [click here to go directly](https://community.obsidian.md/plugins/simple-mind-map). You can also search for the simple mind map in the plugin market for installation.
+Obsidian plugin market has been launched, [click here to go directly](https://community.obsidian.md/plugins/simple-mind-map). You can also search for the `simple mind map` in the plugin market for installation.
 
 If manual installation is required, please refer to the tutorial:
 [中文](./docs/install_zh.md) | [English](./docs/install.md)
@@ -37,9 +37,19 @@ The underlying of this project is based on open-source projects [mind-map](https
 
 # Screenshots
 
-![](./docs/imgs/preview.png)
+![](./docs/imgs/1.png)
 
-![](./docs/imgs/preview2.png)
+![](./docs/imgs/2.png)
+
+![](./docs/imgs/3.png)
+
+![](./docs/imgs/4.png)
+
+![](./docs/imgs/5.png)
+
+![](./docs/imgs/6.png)
+
+![](./docs/imgs/7.png)
 
 # Feature List
 
