@@ -2,6 +2,54 @@
 
 > The Ctrl key mentioned in this document corresponds to the Command key on Mac systems.
 
+- Can the .smm tag be removed from the mind map file name?
+
+It is best not to, as the plugin needs this tag to determine whether it is a mind map file.
+
+- Can mind map files be opened in Markdown view?
+
+Yes:
+  
+Method 1: Click the [Open as Markdown document] option in the right-click menu of the mind map file;
+
+Method 2: Click the [More] button in the top right corner of the mind map view to open the dropdown menu, and select the [Open as Markdown document] option;
+
+- How many ways are there to create a new mind map file?
+
+There are three ways:
+
+1. Click the Ribbon icon on the left;
+
+2. Click [New mind map] in the folder's right-click menu;
+
+3. Use the command [New mind map];
+
+- Is it supported to embed mind map files in Markdown documents using the ![[]] format?
+
+Yes. If image data exists in the file, the image will be displayed, and double-clicking the image will open the file; otherwise, it will prompt: [No image to preview], and double-clicking will also switch to that mind map file;
+
+Image data needs to be manually triggered to save and update using the [Save and update image data] button; auto-save will not update the image data.
+
+If both the mind map file and the Markdown document embedding it are opened at the same time, the preview image in the Markdown document will automatically update after the mind map image is updated.
+
+If image data exists in the mind map, the embedded image will be in PNG format; otherwise, it will be in SVG format;
+
+It supports setting whether the background of the embedded image is transparent in the settings;
+
+The image width can be adjusted: [[xxx.smm|300]].
+
+- Is editing in a separate window supported?
+
+No, it will cause an error.
+
+- After adding images or files to a mind map node, if the storage path of these images or files is modified, will the mind map update automatically?
+
+No, so it is recommended to set the storage path for images and files in the settings first before adding them; otherwise, you will need to manually update the paths of the added images and files.
+
+- Can internal links in the formats [[]] and ![[]] be inserted into the text of mind map nodes?
+
+Inserting the [[]] format is supported, but the ![[]] format is not supported.
+
 - Open a hyperlink in a new tab  
   Ctrl + click the hyperlink.
 
@@ -12,7 +60,8 @@
   Hold down the Ctrl key and use the mouse wheel to zoom the canvas.
 
 - **Is free node supported?**  
-  No.
+
+Support, double-click in the blank space of the canvas to create.
 
 - **Can nodes be added after a summary node?**  
   No. This feature will not be implemented in the short term.  
