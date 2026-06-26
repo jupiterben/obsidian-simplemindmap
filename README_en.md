@@ -33,6 +33,10 @@ AI configuration assistance: [中文](https://mp.weixin.qq.com/s/jybRdfuUhF5Af1S
 
 Plugin Settings - Files - New Mind Map File Name Format/Paste Image Naming Format Instructions: [中文](./docs/filenameFormat_zh.md) | [English](./docs/filenameFormat.md)
 
+- 🌐Product official website
+
+[http://www.sxmind.tech/](http://www.sxmind.tech/)
+
 ## Independent client
 
 In addition to plugins, there is also an independent mind mapping client with more powerful and complete functions.

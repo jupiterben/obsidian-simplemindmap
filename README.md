@@ -32,6 +32,10 @@ AI配置帮助：[中文](https://mp.weixin.qq.com/s/jybRdfuUhF5Af1SesLItfg)
 
 插件设置-文件-新建思维导图的文件名格式/粘贴图片的命名格式说明：[中文](./docs/filenameFormat_zh.md) | [English](./docs/filenameFormat.md)
 
+- 🌐产品官网
+
+[http://www.sxmind.tech/](http://www.sxmind.tech/)
+
 ## 独立客户端
 
 除了插件，本项目也有独立的思维导图客户端，功能更强大、更完整。
